@@ -1,0 +1,11 @@
+[Unit]
+Description=Raspicam Server. (Raspberry Pi recording by camera and microphone serice.)
+
+[Service]
+ExecStart=cd /<Deployment path>/raspicam-server; /<Deployment path>/raspicam-server/startup.sh
+Restart=on-failure
+RestartPreventExitStatus=255
+
+[Install]
+WantedBy=multi-user.target
+Alias=raspicam-server.service

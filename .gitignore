@@ -1,3 +1,8 @@
+artifacts/audio/*.wav
+artifacts/image/*.jpeg
+artifacts/video/*.h264
+systemd/raspicam-server.service
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

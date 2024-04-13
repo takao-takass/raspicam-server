@@ -1,0 +1,1 @@
+arecord -c 1 -d 10 -f S16_LE -r 44100 "./artifacts/audio/record_10sec_$(date +%Y%m%d_%H%M%S).wav"
