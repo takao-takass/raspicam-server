@@ -39,8 +39,8 @@ sudo chmod 755 ./shellscripts/*/*.sh
 
 ## Auto startup by systemd service.
 
-1. Copy  of `_raspicam-server.service` file in `systemd` directory, after rename to `raspicam-server.service`.
-2. Modify your `<Deployment path>` in `raspicam-server.service` of line 5.
+1. Copy  of `_raspicam-server.service` file in `systemd` directory, and rename to `raspicam-server.service`.
+2. Modify `<Deployment path>` to your deployment path. line 5 in `raspicam-server.service`.
 3. Create symbolic link in `/etc/systemd/system/raspicam-server.service` from your `raspicam-server.service` file.
     - Sample command
 ``` shell
